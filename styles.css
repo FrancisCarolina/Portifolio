@@ -1,0 +1,50 @@
+.inicio {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+.experiencia {
+  width: 100%;
+  height: 100vh;
+}
+
+.inicio .sobre {
+  width: 70%;
+  background-color: #28104e;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.sobre .containertitulo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.containertitulo .titulo {
+  color: #deacf5;
+  font-weight: bold;
+  font-size: 80px;
+}
+.containertitulo .descricao {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.inicio .contraste {
+  width: 30%;
+  background-color: #deacf5;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+}
+.imagem {
+  width: 200px;
+  z-index: 1000;
+  margin-left: -45%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
